@@ -1,7 +1,7 @@
 # QuizEditor
 Commands used in editor
 
-##Basic commands used in the editor:
+## Basic commands used in the editor:
 
 ### newQuestion
 Creates a new question. Example:
@@ -16,14 +16,14 @@ anwser=d
 time=10
 ```
 
-###What does each command above mean?
+### What does each command above mean?
 a, b, c and d stand for 4 diffrent anwsers.
 After writing anwser add the correct anwser id to it. [a/b/c/d]
 Time stands for the time itself. [in seconds]
 
 ## Other commends used in editor:
 
-##permission
+## permission
 Permission command grants or restricts access to the editor to any other people than the creator himself. If you don't want it to work just set it to public. But, if you set it to private, after saving the project you should open the project one more time to avoid any bugs. Examples:
 
 Pulic:
