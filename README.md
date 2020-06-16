@@ -26,7 +26,7 @@ Time stands for the time itself. [in seconds]
 ## permission
 Permission command grants or restricts access to the editor to any other people than the creator himself. If you don't want it to work just set it to public. But, if you set it to private, after saving the project you should open the project one more time to avoid any bugs. Examples:
 
-Pulic:
+Public:
 ```markdown
 Anyone can access this file in the editor
 permission=public
