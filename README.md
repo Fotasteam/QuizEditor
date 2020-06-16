@@ -1,32 +1,42 @@
 # QuizEditor
 Commands used in editor
 
+##Basic commands used in the editor:
+
 ### newQuestion
+Creates a new question. Example:
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+newQuestion=INSERT QUESTION HERE
+a=Anwser1
+b=Anwser2
+c=Anwser3
+d=Anwser4
+anwser=d
+time=10
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+###What does each command above mean?
+a, b, c and d stand for 4 diffrent anwsers.
+After writing anwser add the correct anwser id to it. [a/b/c/d]
+Time stands for the time itself. [in seconds]
 
-### Jekyll Themes
+## Other commends used in editor:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fotasteam/ThePerfectAI/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+##permission
+Permission command grants or restricts access to the editor to any other people than the creator himself. If you don't want it to work just set it to public. But, if you set it to private, after saving the project you should open the project one more time to avoid any bugs. Examples:
 
-### Support or Contact
+Pulic:
+```markdown
+Anyone can access this file in the editor
+permission=public
+You can also delete the permission command to make it public by default.
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Private:
+```markdown
+You are the only person that can access the file.
+permission=private
+After setting it to private remember to save and open the project file again.
+```
+
