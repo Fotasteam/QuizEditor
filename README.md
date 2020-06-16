@@ -1,13 +1,7 @@
 # QuizEditor
-## Welcome to the Find it! project.
+Commands used in editor
 
-It's a program made to search videos, games and books and display information about them. It collects data from this github or you can also collect data from your own computer.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### newQuestion
 
 ```markdown
 Syntax highlighted code block
