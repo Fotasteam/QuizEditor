@@ -6,6 +6,10 @@ Commands used in editor
 ### newQuestion
 Creates a new question. Example:
 
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>
+
 ```markdown
 <div class="text-blue mb-2">
   .newQuestion=INSERT QUESTION HERE
