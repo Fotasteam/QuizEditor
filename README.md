@@ -6,20 +6,14 @@ Commands used in editor
 ### newQuestion
 Creates a new question. Example:
 
-<div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
-
 ```markdown
-<div class="text-blue mb-2">
-  .newQuestion=INSERT QUESTION HERE
-  .a=Anwser1
-  .b=Anwser2
-  .c=Anwser3
-  .d=Anwser4
-  .anwser=d
-  .time=10
-</div>
+newQuestion=INSERT QUESTION HERE
+a=Anwser1
+b=Anwser2
+c=Anwser3
+d=Anwser4
+anwser=d
+time=10
 ```
 
 ### What does each command above mean?
@@ -35,18 +29,14 @@ Permission command grants or restricts access to the editor to any other people 
 Public:
 ```markdown
 Anyone can access this file in the editor
-<div class="text-blue mb-2">
-  .permission=public
-</div>
+permission=public
 You can also delete the permission command to make it public by default.
 ```
 
 Private:
 ```markdown
 You are the only person that can access the file.
-<div class="text-blue mb-2">
-  .permission=private
-</div>
+permission=private
 After setting it to private remember to save and open the project file again.
 ```
 
