@@ -40,3 +40,11 @@ permission=private
 After setting it to private remember to save and open the project file again.
 ```
 
+### newOpenQuestion
+Unlocks a rich text box.
+
+Example:
+```markdown
+newOpenQuestion=QUESTION HERE
+time=100
+```
