@@ -7,13 +7,15 @@ Commands used in editor
 Creates a new question. Example:
 
 ```markdown
-newQuestion=INSERT QUESTION HERE
-a=Anwser1
-b=Anwser2
-c=Anwser3
-d=Anwser4
-anwser=d
-time=10
+<div class="text-blue mb-2">
+  .newQuestion=INSERT QUESTION HERE
+  .a=Anwser1
+  .b=Anwser2
+  .c=Anwser3
+  .d=Anwser4
+  .anwser=d
+  .time=10
+</div>
 ```
 
 ### What does each command above mean?
@@ -29,14 +31,18 @@ Permission command grants or restricts access to the editor to any other people 
 Public:
 ```markdown
 Anyone can access this file in the editor
-permission=public
+<div class="text-blue mb-2">
+  .permission=public
+</div>
 You can also delete the permission command to make it public by default.
 ```
 
 Private:
 ```markdown
 You are the only person that can access the file.
-permission=private
+<div class="text-blue mb-2">
+  .permission=private
+</div>
 After setting it to private remember to save and open the project file again.
 ```
 
